@@ -1,42 +1,42 @@
 const characterList = [
     {
-        backgroundImage : '../images/character01.png',
-        name : '../images/character01_name.png',
+        backgroundImage : 'images/character01.png',
+        name : 'images/character01_name.png',
         actor : '박은빈 [아역 : 최명빈]',
         subtitle : '왕세자',
         article : '감출 수밖에 없는 비밀을 짊어진 왕세자. 눈처럼 새하얀 얼굴에 얼음처럼 차가운 눈빛, 신비로울 정도로 선이 고운 외모, 거기에 범접할 수 없는 위엄과 누구도 따를 자 없는 문무 실력까지 갖춘 완벽한 왕세자다. 하지만 언제나 감정을 드러내지 않는 포커페이스로 독설을 날리며 누구에게도 쉽게 곁을 허락하지 않아 궁녀들 중 누구도 언감생심 승은을 입는 건 꿈조차 꾸지 못한다. 이처럼 선 넘는 행동을 용납하지 않는 이유는 그가 죽은 오라비의 삶을 대신 살고 있는 쌍둥이 여동생이자, 가짜 왕세자이기 때문이다.'
     },
     {
-        backgroundImage : '../images/character02.png',
-        name : '../images/character02_name.png',
+        backgroundImage : 'images/character02.png',
+        name : 'images/character02_name.png',
         actor : '로운 [아역 : 고우림]',
         subtitle : '시강원 사서',
         article : '왕세자 이휘의 스승(세자시강원 서연관)이자 첫사랑. 잘생긴 얼굴과 끝내주는 ‘도포발’을 가진 정지운은 끈기, 집념, 배짱의 상남자이자, 허허실실, 유유자적, 타고난 낙천주의자로 인생을 원 없이 즐기며 사는 시대의 풍운아. 사헌부 집의의 아들로 일찍이 과거에 급제한 인재 중의 인재지만 입신양명 탄탄대로의 길은 뒤로하고 붓 대신 침을 잡은 특별한 사연이 있다.'
     },
     {
-        backgroundImage : '../images/character03.png',
-        name : '../images/character03_name.png',
+        backgroundImage : 'images/character03.png',
+        name : 'images/character03_name.png',
         actor : '남윤수',
         subtitle : '자은군. 왕실의 종친',
         article : '왕실의 종친. 왕세자 이휘와는 어린 시절부터 친형제처럼 나고 자란 막역지우다. 공자의 정명 사상을 그대로 체화한 듯한 그는 자신이 있어야 할 자리와 해야 할 일을 분명히 가릴 줄 아는 인물. 예의에 어긋나는 실수는 하지 않고, 지켜야 할 상대의 공간을 침범하지 않는 배려로 정도를 지키며 선을 넘지않는다. 그러나 그렇게 정도를 지키는 배려 깊은 천성은 애석하게도 누군가를 향한 제 마음까지 속 안에 가두는 틀이 되고 만다.'
     },
     {
-        backgroundImage : '../images/character04.png',
-        name : '../images/character04_name.png',
+        backgroundImage : 'images/character04.png',
+        name : 'images/character04_name.png',
         actor : '최병찬',
         subtitle : '휘의 호위무사',
         article : '감정을 드러내지 않고 그림자처럼 묵묵히 왕세자 이휘의 곁을 지키는 호위무사. 무예로 단련된 다부진 몸과 과묵한 성격으로 건아의 기운을 뿜어내는 그는 궁에서 늘 선망의 대상이 된다. 그러나 정작 본인은 오로지 휘의 안위를 지키는 일에만 전념, 수호자 역할에만 충실히 임한다. 도무지 알 수 없는 속내만큼이나 비밀스런 과거를 지닌 사내다. 군령의 충실한 군인이었던 그가 동궁전의 호위 무사가 됐다는 것 외엔 알려진 게 별로 없다.'
     },
     {
-        backgroundImage : '../images/character05.png',
-        name : '../images/character05_name.png',
+        backgroundImage : 'images/character05.png',
+        name : 'images/character05_name.png',
         actor : '배윤경',
         subtitle : '이조판서 신영수의 외동딸',
         article : '이조판서의 외동딸. 이리 봐도 저리 봐도 부티가 좔좔 흐르는 미모의 소유자이자, 누구 앞에서도 기죽지 않고 자기주장을 명확히 밝힐 줄 아는 신여성이다. 콧대 높은 사대부가의 아가씨로, 남다른 배경에 안주하지 않는 열정을 지녔다. 또한 위기를 기회로 만드는 슬기로운 처세로 원하는 것을 반드시 제 손에 넣을 줄 알 정도로 야무지다. 세자빈의 자리를 바라보지만, 어느 날 그보다 더 욕심이 난 사내 정지운을 만나 일생일대의 고민에 빠진다.'
     },
     {
-        backgroundImage : '../images/character05.png',
-        name : '../images/character05_name.png',
+        backgroundImage : 'images/character05.png',
+        name : 'images/character05_name.png',
         actor : '정채연',
         subtitle : '병조판서 노학수의 늦둥이 막내딸',
         article : '병조판서의 막내딸. 딸 바보 아버지 밑에서 자라나, 태어난 순간부터 자신을 귀하게 여기는 환경 속에서 사랑을 듬뿍 받아온 하경은 그 덕에 순도 100%의 티 없이 맑은 영혼을 소유했다. 그렇게 순수한 미소로 눈 앞에 있는 행복을 누리던 어느 날, 자신의 온 마음을 다하고 싶은 낭군을 만날 예정이다.'
