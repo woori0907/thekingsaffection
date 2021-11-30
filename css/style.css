@@ -2,3 +2,99 @@
     width: 660px;
     height: 787px;
 }
+
+/* 사이드바 */
+.sidebar__item{
+    width: 150px;
+    height: 150px;
+    background-repeat: no-repeat;
+    list-style-type: none;
+}
+
+.item__lw{
+    background-image: url('../images/menu_btn01_front.png');
+}
+.item__lw:hover{
+    background-image: url('../images/menu_btn01_flip.png');
+}
+
+.item__jjw{
+    background-image: url('../images/menu_btn02_front.png');
+}
+.item__jjw:hover{
+    background-image: url('../images/menu_btn02_flip.png');
+}
+
+.item__lh{
+    background-image: url('../images/menu_btn03_front.png');
+}
+.item__lh:hover{
+    background-image: url('../images/menu_btn03_flip.png');
+}
+
+.item__kgo{
+    background-image: url('../images/menu_btn04_front.png');
+}
+.item__kgo:hover{
+    background-image: url('../images/menu_btn04_flip.png');
+}
+.item__sse{
+    background-image: url('../images/menu_btn05_front.png');
+}
+.item__sse:hover{
+    background-image: url('../images/menu_btn05_flip.png');
+}
+.item__nhg{
+    background-image: url('../images/menu_btn06_front.png');
+}
+.item__nhg:hover{
+    background-image: url('../images/menu_btn06_flip.png');
+}
+
+/* 이휘 */
+.character__lw .content__characterimg{
+    background-image: url('../images/character01.png');
+}
+.character__lw .description__title{
+    background-image: url('../images/character01_name.png');
+}
+
+/* 정지운 */
+.character__jjw .content__characterimg{
+    background-image: url('../images/character02.png');
+}
+.character__jjw .description__title{
+    background-image: url('../images/character01_name.png');
+}
+
+/* 이현 */
+.character__lh .content__characterimg{
+    background-image: url('../images/character03.png');
+}
+.character__lh .description__title{
+    background-image: url('../images/character01_name.png');
+}
+
+/* 김가온 */
+.character__kgo .content__characterimg{
+    background-image: url('../images/character04.png');
+}
+.character__kgo .description__title{
+    background-image: url('../images/character01_name.png');
+}
+
+/* 신소은 */
+.character__sse .content__characterimg{
+    background-image: url('../images/character05.png');
+}
+.character__sse .description__title{
+    background-image: url('../images/character01_name.png');
+}
+
+/* 노하경 */
+.character__nhg .content__characterimg{
+    background-image: url('../images/character06.png');
+}
+.character__nhg .description__title{
+    background-image: url('../images/character01_name.png');
+}

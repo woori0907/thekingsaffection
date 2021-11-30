@@ -9,20 +9,20 @@ const characterArticle = document.querySelector(".description__article");
 
 const INIT_PROFILE_INDEX = 0;
 
-const renderProfile = (index) =>{
-    const currentIndex = index;
+// const renderProfile = (index) =>{
+//     const currentIndex = index;
 
-    characterImage.style.backgroundImage = `url(${characterList[currentIndex].backgroundImage})`;
-    characterName.innerHTML = `<img src="${characterList[currentIndex].name}">`;
-    characterActor.innerText = `${characterList[currentIndex].actor}`;
-    characterSubtitle.innerText = `${characterList[currentIndex].subtitle}`;
-    characterArticle.innerText = `${characterList[currentIndex].article}`;
-}
+//     characterImage.style.backgroundImage = `url(${characterList[currentIndex].backgroundImage})`;
+//     characterName.innerHTML = `<img src="${characterList[currentIndex].name}">`;
+//     characterActor.innerText = `${characterList[currentIndex].actor}`;
+//     characterSubtitle.innerText = `${characterList[currentIndex].subtitle}`;
+//     characterArticle.innerText = `${characterList[currentIndex].article}`;
+// }
 
-const clickMenu = (event) => {
-    renderProfile(event.target.getAttribute("data-index"));
-}
+// const clickMenu = (event) => {
+//     renderProfile(event.target.getAttribute("data-index"));
+// }
 
-renderProfile(INIT_PROFILE_INDEX);
+// renderProfile(INIT_PROFILE_INDEX);
 
-characterMenu.addEventListener('click', clickMenu);
+// characterMenu.addEventListener('click', clickMenu);
