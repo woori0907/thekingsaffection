@@ -7,6 +7,8 @@ const characterActor = document.querySelector(".description__actor");
 const characterSubtitle = document.querySelector(".description__subtitle");
 const characterArticle = document.querySelector(".description__article");
 
+const characterContents = document.getElementsByClassName("characters__content");
+
 const INIT_PROFILE_INDEX = 0;
 
 // const renderProfile = (index) =>{
@@ -19,10 +21,15 @@ const INIT_PROFILE_INDEX = 0;
 //     characterArticle.innerText = `${characterList[currentIndex].article}`;
 // }
 
-// const clickMenu = (event) => {
-//     renderProfile(event.target.getAttribute("data-index"));
-// }
+const clickMenu = (event) => {
+    const currentIndex = event.target.getAttribute("data-index");
+    // renderProfile(event.target.getAttribute("data-index"));
+    for (var i=0; i<characterContents.length; i++) {
+        characterContents[i].classList.remove('on');
+      }
+    characterContents[currentIndex].classList.add('on');
+}
 
 // renderProfile(INIT_PROFILE_INDEX);
 
-// characterMenu.addEventListener('click', clickMenu);
+characterMenu.addEventListener('click', clickMenu);

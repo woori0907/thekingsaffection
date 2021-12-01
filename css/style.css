@@ -1,9 +1,48 @@
-.content__characterimg{
-    width: 660px;
-    height: 787px;
+/* 기본설정 */
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    background-image: url('../images/default_background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
-/* 사이드바 */
+/* 네비게이션 */
+.navBar{
+    display: flex;
+    height: 7vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0 , 0.7);
+    z-index: 999;
+}
+.navBar__logo{
+    width: 30vw;
+    height: 7vh;
+}
+.navBar__logo img{
+    width: 7vw;
+}
+
+/* 캐릭터 소개 */
+#characters{
+    display: flexbox;
+    position: relative;
+}
+.characters__sidebar{
+    display: flex;
+    width: 30vw;
+    height: 100vh;
+}
+.characters__content{
+    display: flex;
+    position: relative;
+    width: 70vw;
+    height: 100vh;
+}
+
+/* 캐릭터 소개 - 사이드바 */
 .sidebar__item{
     width: 150px;
     height: 150px;
@@ -49,6 +88,27 @@
 }
 .item__nhg:hover{
     background-image: url('../images/menu_btn06_flip.png');
+}
+
+
+/* 캐릭터 설명 */
+.on{
+    opacity: 1 !important;
+    visibility: visible !important;
+    transition: all .5s ease-in;
+}
+
+.characters__content{
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.content__characterimg{
+    width: 660px;
+    height: 787px;
 }
 
 /* 이휘 */
