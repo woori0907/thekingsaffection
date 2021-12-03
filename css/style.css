@@ -8,21 +8,43 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
+ul{
+    list-style: none;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
 
 /* 네비게이션 */
 .navBar{
     display: flex;
-    height: 7vh;
-    width: 100vw;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 20px;
     background-color: rgba(0, 0, 0 , 0.7);
     z-index: 999;
 }
 .navBar__logo{
-    width: 30vw;
+    width: 7vw;
     height: 7vh;
 }
 .navBar__logo img{
-    width: 7vw;
+    max-width: 100%;
+    max-height: 100%;
+}
+.navbar__menu{
+    display: flex;
+}
+.navbar__item{
+    padding: 12px 12px;
+    margin : 0 12px;
+    color: #fff;
+}
+.navbar__item.active, .navbar__item:hover{
+    border-bottom: 2px solid #fff;
+    font-weight: bold;
 }
 
 /* 캐릭터 소개 */
@@ -44,8 +66,9 @@ body{
 
 /* 캐릭터 소개 - 사이드바 */
 .sidebar__item{
-    width: 150px;
-    height: 150px;
+    width: 120px;
+    height: 120px;
+    background-size: contain;
     background-repeat: no-repeat;
     list-style-type: none;
 }
