@@ -71,6 +71,30 @@ a{
     align-items: center;
 }
 
+/* 프로그램 소개 */
+#introduce{
+    display: flex;
+    height: 100vh;
+    background-image: url(../images/introduce_bg.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.introduce__background{
+    flex-basis: 50%;
+    
+}
+.introduce__description{
+    flex-basis: 50%;
+    padding-top: 25vh;
+    color: white;
+}
+.description__title{
+    margin-bottom: 20px;
+}
+.description__text{
+    line-height: 1.6;
+}
+
 
 /* 캐릭터 소개 */
 /* 캐릭터소개 기본 */
