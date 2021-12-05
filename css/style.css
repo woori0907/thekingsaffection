@@ -104,7 +104,7 @@ a{
 }
 .characters__sidebar{
     display: flex;
-    width: 30vw;
+    width: 30vw; 
     height: 100vh;
 }
 .characters__content{
