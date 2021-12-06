@@ -99,18 +99,20 @@ a{
 /* 캐릭터 소개 */
 /* 캐릭터소개 기본 */
 #characters{
-    display: flexbox;
+    padding-top: 10vh;
+    display: flex;
     position: relative;
+
 }
 .characters__sidebar{
-    display: flex;
-    width: 30vw; 
-    height: 100vh;
+
+    padding-left: 2vw;
+    flex-basis: 10%;
 }
-.characters__content{
-    display: flex;
+.characters__contentWrap{
     position: relative;
-    width: 70vw;
+    flex-basis: 90%;
+    width: 100vw;
     height: 100vh;
 }
 
@@ -177,15 +179,13 @@ a{
     position: absolute;
     left: 0;
     top: 0;
-}
-
-.content__characterimg{
-    width: 660px;
-    height: 787px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100vh;
 }
 
 /* 이휘 */
-.character__lw .content__characterimg{
+.character__lw{
     background-image: url('../images/character01.png');
 }
 .character__lw .description__title{
@@ -193,7 +193,7 @@ a{
 }
 
 /* 정지운 */
-.character__jjw .content__characterimg{
+.character__jjw{
     background-image: url('../images/character02.png');
 }
 .character__jjw .description__title{
@@ -201,7 +201,7 @@ a{
 }
 
 /* 이현 */
-.character__lh .content__characterimg{
+.character__lh{
     background-image: url('../images/character03.png');
 }
 .character__lh .description__title{
@@ -209,7 +209,7 @@ a{
 }
 
 /* 김가온 */
-.character__kgo .content__characterimg{
+.character__kgo{
     background-image: url('../images/character04.png');
 }
 .character__kgo .description__title{
@@ -217,7 +217,7 @@ a{
 }
 
 /* 신소은 */
-.character__sse .content__characterimg{
+.character__sse{
     background-image: url('../images/character05.png');
 }
 .character__sse .description__title{
@@ -225,7 +225,7 @@ a{
 }
 
 /* 노하경 */
-.character__nhg .content__characterimg{
+.character__nhg{
     background-image: url('../images/character06.png');
 }
 .character__nhg .description__title{
