@@ -112,8 +112,7 @@ a{
 .characters__contentWrap{
     position: relative;
     flex-basis: 90%;
-    width: 100vw;
-    height: 100vh;
+    /* width: 100vw; */
 }
 
 /* 캐릭터 소개 - 사이드바 */
@@ -179,9 +178,35 @@ a{
     position: absolute;
     left: 0;
     top: 0;
+    width: 100%;
+    height: 80vh;
     background-repeat: no-repeat;
     background-size: contain;
-    height: 100vh;
+    display: flex;
+}
+
+.content__characterimg{
+    flex-basis: 40%;
+}
+.content__description{
+    padding-top: 25vh;
+    flex-basis: 60%;
+    color: #fff;
+}
+
+.description__titleWrap{
+    display: flex;
+    align-items: center;
+}
+
+.description__title{
+    width: 120px;
+    height: 50px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.description__subtitle{
+    margin-bottom: 20px;
 }
 
 /* 이휘 */
@@ -197,7 +222,7 @@ a{
     background-image: url('../images/character02.png');
 }
 .character__jjw .description__title{
-    background-image: url('../images/character01_name.png');
+    background-image: url('../images/character02_name.png');
 }
 
 /* 이현 */
@@ -205,7 +230,7 @@ a{
     background-image: url('../images/character03.png');
 }
 .character__lh .description__title{
-    background-image: url('../images/character01_name.png');
+    background-image: url('../images/character03_name.png');
 }
 
 /* 김가온 */
@@ -213,7 +238,7 @@ a{
     background-image: url('../images/character04.png');
 }
 .character__kgo .description__title{
-    background-image: url('../images/character01_name.png');
+    background-image: url('../images/character04_name.png');
 }
 
 /* 신소은 */
@@ -221,7 +246,7 @@ a{
     background-image: url('../images/character05.png');
 }
 .character__sse .description__title{
-    background-image: url('../images/character01_name.png');
+    background-image: url('../images/character05_name.png');
 }
 
 /* 노하경 */
@@ -229,5 +254,5 @@ a{
     background-image: url('../images/character06.png');
 }
 .character__nhg .description__title{
-    background-image: url('../images/character01_name.png');
+    background-image: url('../images/character06_name.png');
 }
