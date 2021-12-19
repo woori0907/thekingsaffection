@@ -15,7 +15,7 @@ const characterList = [
     },
     {
         backgroundImage : 'images/character03.png',
-        name : 'images/character03_name.png',
+        name : 'images/character03_name.png', 
         actor : '남윤수',
         subtitle : '자은군. 왕실의 종친',
         article : '왕실의 종친. 왕세자 이휘와는 어린 시절부터 친형제처럼 나고 자란 막역지우다. 공자의 정명 사상을 그대로 체화한 듯한 그는 자신이 있어야 할 자리와 해야 할 일을 분명히 가릴 줄 아는 인물. 예의에 어긋나는 실수는 하지 않고, 지켜야 할 상대의 공간을 침범하지 않는 배려로 정도를 지키며 선을 넘지않는다. 그러나 그렇게 정도를 지키는 배려 깊은 천성은 애석하게도 누군가를 향한 제 마음까지 속 안에 가두는 틀이 되고 만다.'
