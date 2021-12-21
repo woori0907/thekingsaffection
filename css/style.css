@@ -265,6 +265,17 @@ a{
 }
 
 
+/* 기타 캐릭터 */
+.character__etc{
+    overflow-y: scroll;
+}
+.content__subCharacters{
+    flex-direction: column;
+    opacity: 0;
+    visibility: hidden;
+}
+
+
 @media screen and (max-width: 768px){
 
 }
