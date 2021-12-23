@@ -273,7 +273,7 @@ a{
     flex-direction: column;
     opacity: 0;
     visibility: hidden;
-}
+} 
 
 
 @media screen and (max-width: 768px){
