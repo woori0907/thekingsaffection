@@ -1,24 +1,27 @@
 /* 기본설정 */
-*{
+* {
     box-sizing: border-box;
     margin: 0;
 }
-body{
+
+body {
     background-image: url('../images/default_background.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
-ul{
+
+ul {
     list-style: none;
     padding: 0;
 }
-a{
+
+a {
     text-decoration: none;
     color: #fff;
 }
 
 /* 네비게이션 */
-.navBar{
+.navBar {
     position: fixed;
     display: flex;
     justify-content: space-between;
@@ -26,32 +29,38 @@ a{
     padding: 12px 20px;
     width: 100%;
     height: 10vh;
-    background-color: rgba(0, 0, 0 , 0.7);
+    background-color: rgba(0, 0, 0, 0.7);
     z-index: 999;
 }
-.navBar__logo{
+
+.navBar__logo {
     width: 7vw;
     height: 7vh;
 }
-.navBar__logo img{
+
+.navBar__logo img {
     max-width: 100%;
     max-height: 100%;
 }
-.navbar__menu{
+
+.navbar__menu {
     display: flex;
 }
-.navbar__item{
+
+.navbar__item {
     padding: 12px 12px;
-    margin : 0 12px;
+    margin: 0 12px;
     color: #fff;
 }
-.navbar__item.active, .navbar__item:hover{
+
+.navbar__item.active,
+.navbar__item:hover {
     border-bottom: 2px solid #fff;
     font-weight: bold;
 }
 
 /* 메인페이지 */
-#main{
+#main {
     background-image: url(../images/main.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -59,10 +68,11 @@ a{
     width: 100vw;
     height: 100vh;
 }
-#footer{
+
+#footer {
     position: absolute;
     bottom: 0;
-    background-color: rgba(0, 0, 0 , 0.7);
+    background-color: rgba(0, 0, 0, 0.7);
     color: #fff;
     width: 100%;
     padding: 8px 12px;
@@ -72,51 +82,57 @@ a{
 }
 
 /* 프로그램 소개 */
-#introduce{
+#introduce {
     display: flex;
     height: 100vh;
     background-image: url(../images/introduce_bg.png);
     background-size: contain;
     background-repeat: no-repeat;
 }
-.introduce__background{
+
+.introduce__background {
     flex-basis: 50%;
-    
+
 }
-.introduce__description{
+
+.introduce__description {
     flex-basis: 50%;
     padding-top: 25vh;
     color: white;
 }
-.description__title{
+
+.description__title {
     margin-bottom: 20px;
 }
-.description__text{
+
+.description__text {
     line-height: 1.6;
 }
 
 
 /* 캐릭터 소개 */
 /* 캐릭터소개 기본 */
-#characters{
+#characters {
     padding-top: 10vh;
     display: flex;
     position: relative;
 
 }
-.characters__sidebar{
+
+.characters__sidebar {
 
     padding-left: 2vw;
     flex-basis: 10%;
 }
-.characters__contentWrap{
+
+.characters__contentWrap {
     position: relative;
     flex-basis: 90%;
     /* width: 100vw; */
 }
 
 /* 캐릭터 소개 - 사이드바 */
-.sidebar__item{
+.sidebar__item {
     width: 110px;
     height: 110px;
     background-size: contain;
@@ -125,157 +141,174 @@ a{
     cursor: pointer;
 }
 
-.item__lw{
+.item__lw {
     background-image: url('../images/menu_btn01_front.png');
 }
-.item__lw:hover{
+
+.item__lw:hover {
     background-image: url('../images/menu_btn01_flip.png');
 }
 
-.item__jjw{
+.item__jjw {
     background-image: url('../images/menu_btn02_front.png');
 }
-.item__jjw:hover{
+
+.item__jjw:hover {
     background-image: url('../images/menu_btn02_flip.png');
 }
 
-.item__lh{
+.item__lh {
     background-image: url('../images/menu_btn03_front.png');
 }
-.item__lh:hover{
+
+.item__lh:hover {
     background-image: url('../images/menu_btn03_flip.png');
 }
 
-.item__kgo{
+.item__kgo {
     background-image: url('../images/menu_btn04_front.png');
 }
-.item__kgo:hover{
+
+.item__kgo:hover {
     background-image: url('../images/menu_btn04_flip.png');
 }
-.item__sse{
+
+.item__sse {
     background-image: url('../images/menu_btn05_front.png');
 }
-.item__sse:hover{
+
+.item__sse:hover {
     background-image: url('../images/menu_btn05_flip.png');
 }
-.item__nhg{
+
+.item__nhg {
     background-image: url('../images/menu_btn06_front.png');
 }
-.item__nhg:hover{
+
+.item__nhg:hover {
     background-image: url('../images/menu_btn06_flip.png');
 }
-.item__etc{
+
+.item__etc {
     background-image: url('../images/menu_btn07_front.png');
 }
-.item__etc:hover{
+
+.item__etc:hover {
     background-image: url('../images/menu_btn07_flip.png');
 }
 
 
 /* 캐릭터 설명 */
-.on{
+.on {
     opacity: 1 !important;
     visibility: visible !important;
     transition: all .5s ease-in;
 }
 
-.characters__content{
+.characters__content {
     opacity: 0;
     visibility: hidden;
     position: absolute;
     left: 0;
     top: 0;
-    width: 100%; 
+    width: 100%;
     height: 80vh;
     background-repeat: no-repeat;
     background-size: contain;
     display: flex;
 }
 
-.content__characterimg{
+.content__characterimg {
     flex-basis: 40%;
-} 
-.content__description{
+}
+
+.content__description {
     padding-top: 25vh;
     flex-basis: 60%;
     color: #fff;
 }
 
-.description__titleWrap{
+.description__titleWrap {
     display: flex;
     align-items: center;
 }
 
-.description__title{
+.description__title {
     width: 120px;
     height: 50px;
     background-size: contain;
     background-repeat: no-repeat;
 }
-.description__subtitle{
+
+.description__subtitle {
     margin-bottom: 20px;
 }
 
 /* 이휘 */
-.character__lw{
+.character__lw {
     background-image: url('../images/character01.png');
 }
-.character__lw .description__title{
+
+.character__lw .description__title {
     background-image: url('../images/character01_name.png');
 }
 
 /* 정지운 */
-.character__jjw{
+.character__jjw {
     background-image: url('../images/character02.png');
 }
-.character__jjw .description__title{
+
+.character__jjw .description__title {
     background-image: url('../images/character02_name.png');
 }
 
 /* 이현 */
-.character__lh{
+.character__lh {
     background-image: url('../images/character03.png');
 }
-.character__lh .description__title{
+
+.character__lh .description__title {
     background-image: url('../images/character03_name.png');
 }
 
 /* 김가온 */
-.character__kgo{
+.character__kgo {
     background-image: url('../images/character04.png');
 }
-.character__kgo .description__title{
+
+.character__kgo .description__title {
     background-image: url('../images/character04_name.png');
 }
 
 /* 신소은 */
-.character__sse{
+.character__sse {
     background-image: url('../images/character05.png');
 }
-.character__sse .description__title{
+
+.character__sse .description__title {
     background-image: url('../images/character05_name.png');
 }
 
 /* 노하경 */
-.character__nhg{
+.character__nhg {
     background-image: url('../images/character06.png');
 }
-.character__nhg .description__title{
+
+.character__nhg .description__title {
     background-image: url('../images/character06_name.png');
 }
 
 
 /* 기타 캐릭터 */
-.character__etc{
+.character__etc {
     overflow-y: scroll;
 }
-.content__subCharacters{
+
+.content__subCharacters {
     flex-direction: column;
     opacity: 0;
     visibility: hidden;
-} 
+}
 
 
-@media screen and ( max-width: 768px){
-
-}  
+@media screen and (max-width: 768px) {}
