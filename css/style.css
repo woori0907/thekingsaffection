@@ -269,17 +269,17 @@ a {
 
 .character__lh .description__title {
     background-image: url('../images/character03_name.png');
-} 
- 
+}
+
 /* 김가온 */
 .character__kgo {
     background-image: url('../images/character04.png');
 }
-  
+
 .character__kgo .description__title {
     background-image: url('../images/character04_name.png');
 }
- 
+
 /* 신소은 */
 .character__sse {
     background-image: url('../images/character05.png');
