@@ -249,7 +249,7 @@ a {
     background-image: url('../images/character01.png');
 }
 
-.character__lw .description__title {
+.character__lw .description__title { 
     background-image: url('../images/character01_name.png'); 
 }
  
